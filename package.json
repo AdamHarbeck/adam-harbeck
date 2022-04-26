@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio. It will showcase my skills and abilities as a front-end developer and designer. It will be made with HTML, CSS, JavaSCript, and React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamHarbeck/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamHarbeck/portfolio/issues"
+  },
+  "homepage": "https://github.com/AdamHarbeck/portfolio#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
