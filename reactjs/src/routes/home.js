@@ -17,11 +17,13 @@ const Home = () => {
             Hi, I'm <div id={routeCss.emphasis}>Adam Harbeck.</div> Front-end <span>developer.</span>
           </h1>
           <p className={routeCss.textContainer}>
-            I’m a front-end and full stack developer from Seattle, Washington. 
-            I am passionate about building responsive websites with great UIs, 
-            and clean, easily maintainable code.
+            I’m a front-end and full stack developer specializing in React. 
+            I’m dedicated to creating responsive, mobile first designs that
+            are maintainable and have great UIs.
           </p>
-          <MainBtn btnText={'Contact Me'} />
+          <div id={routeCss.homeBtnDiv}>
+            <MainBtn btnText={'Contact Me'} />
+          </div>
         </div>
         <div id={routeCss.socialShow}>
           <SocialMedia />

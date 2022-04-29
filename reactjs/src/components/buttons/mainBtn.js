@@ -3,9 +3,7 @@ import buttonCss from './buttons.module.css';
 
 const MainBtn = (props) => {
   return (
-    <div className={buttonCss.btnCntr}>
-      <button id={buttonCss.mainBtn}>{props.btnText}</button>
-    </div>
+    <button id={buttonCss.mainBtn}>{props.btnText}</button>
   )
 }
 export default MainBtn;
