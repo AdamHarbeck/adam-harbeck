@@ -3,8 +3,8 @@ import routeCss from './routes.module.css';
 import MainBtn from "../components/buttons/mainBtn";
 import Header from "../components/containers/header";
 import SocialMedia from "../components/containers/socialMedia";
+import { Link } from "react-router-dom";
 
-// PUSH BRANCH AFTER HOME IS COMPLETE. MERGE WITH DEV, THEN STAGE. MAKE ANOTHER BRANCH FOR THE NEXT ROUTE
 // POSSIBLY USE TRANSITIONS IN THE CSS TO MAKE THE RESPONIVENESS MORE FLUID
 
 const Home = () => {
@@ -22,7 +22,9 @@ const Home = () => {
             are maintainable and have great UIs.
           </p>
           <div id={routeCss.homeBtnDiv}>
-            <MainBtn btnText={'Contact Me'} />
+            <Link to={'/contact'}>
+              <MainBtn btnText={'Contact Me'} />
+            </Link>
           </div>
         </div>
         <div id={routeCss.socialShow}>
