@@ -22,17 +22,21 @@
   width: 100%;
 }
 svg {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   color: #eedc82;
+}
+svg:hover {
+  color: #D7B81D;
+  transition: .2s ease-in-out;
 }
 #socialStack {
   width: 6rem;
-  height: 20rem;
+  height: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 2rem 0 0 3rem;
+  margin: 1rem 0 0 3rem;
 }
 #navLink {
   display: none;
@@ -100,11 +104,9 @@ svg {
     margin: 0;
   }
   .pLink {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: inline-block;
     height: 6rem;
-    width: 12.6rem;
+    width: 4rem;
   }
 }
 
@@ -127,6 +129,15 @@ svg {
     text-decoration: none;
     font-weight: 700;
     color: #eedc82;
+  }
+  .link:hover {
+    color: #D7B81D;
+    transition: .2s ease-in-out;
+  }
+  .linkActive {
+    text-decoration: none;
+    font-weight: 700;
+    color: #d7b81d;
   }
   /* Projects */
   .pcardContainer {

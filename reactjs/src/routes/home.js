@@ -27,7 +27,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div id={routeCss.socialShow}>
+        <div className={routeCss.show}>
           <SocialMedia />
         </div>
       </div>
