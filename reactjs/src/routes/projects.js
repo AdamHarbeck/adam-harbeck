@@ -11,7 +11,7 @@ const Projects = () => {
     <div className={routeCss.container}>
       <Header />
       <h1 className={routeCss.headingSm}>Projects</h1>
-      <ProjectCard data={pData}/>
+      {pData.map(obj => {return <ProjectCard data={obj} />})}
     </div>
   )
 }

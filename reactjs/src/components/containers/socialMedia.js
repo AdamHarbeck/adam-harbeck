@@ -8,7 +8,7 @@ const SocialMedia = () => {
     return (
     <div id={containerCss.socialStack}>
       <SocialMediaBtn icon={<BsLinkedin />} link={'https://www.linkedin.com/in/adam-harbeck/'}/>
-      <SocialMediaBtn icon={<BsTwitter />} link={'https://www.twitter.com'}/>
+      <SocialMediaBtn icon={<BsTwitter />} link={'https://www.twitter.com/adam_harbeck'}/>
       <SocialMediaBtn icon={<BsGithub />} link={'https://github.com/AdamHarbeck'}/>
     </div>
   )
