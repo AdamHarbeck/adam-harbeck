@@ -1,0 +1,32 @@
+.dropDown {
+    width: 15rem;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 15rem);
+}
+.textContainer {
+  position: relative;
+  background: #eedc82;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 15rem;
+  height: 20rem;
+}
+.link {
+  color: #102b3f;
+  margin: 0 0 0 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+}
+#menuSqr {
+  width: 5rem;
+  height: 4.5rem;
+  background-color: #d7b81d;
+  opacity: .5;
+  position: relative;
+  top: 0;
+  left: calc(100% - 5rem);
+}

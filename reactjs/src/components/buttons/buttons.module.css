@@ -13,7 +13,11 @@
   width: 20rem;
   margin: 0 auto;
 }
-
+#mainBtn:hover {
+  background-color: #d7b81d;
+  color: #102b3f;
+  transition: .2s ease-in-out;
+}
 
 /* Media Queries*/
 @media(min-width: 800px) {
