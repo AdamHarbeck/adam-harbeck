@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/AdamHarbeck/portfolio/issues"
   },
-  "homepage": "https://github.com/AdamHarbeck/portfolio#readme",
+  "homepage": "https://adamharbeck.github.io/portfolio",
   "dependencies": {
     "create-react-app": "^5.0.1"
   }
