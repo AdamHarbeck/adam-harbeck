@@ -8,7 +8,7 @@ import About from './routes/about';
 function App() {
   return (
     <div>
-      <BrowserRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path={'/'} element={ <Home /> } />
           <Route path={'/projects'} element={ <Projects /> } />
