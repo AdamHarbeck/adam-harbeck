@@ -10,10 +10,10 @@ function App() {
     <div>
       <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
         <Routes>
-          <Route path={'/'} element={ <Home /> } />
-          <Route path={'/projects'} element={ <Projects /> } />
-          <Route path={'/contact'} element={ <Contact /> } />
-          <Route path={'/about'} element={ <About /> } />
+          <Route path={''} element={ <Home /> } />
+          <Route path={'projects'} element={ <Projects /> } />
+          <Route path={'contact'} element={ <Contact /> } />
+          <Route path={'about'} element={ <About /> } />
         </Routes>
       </BrowserRouter>
     </div>
