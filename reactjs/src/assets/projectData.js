@@ -16,7 +16,7 @@ const ProjectData = [
     summary: "A mock PERN full-stack web application for a bakery. Built usingReact and Node.js with the Express framework, Sequelize ORM, and the Postgres database system.",
     tech: 'React | Node.js | Express | Sequelize | Postgres | JavaScript | HTML | CSS',
     repo: 'https://github.com/AdamHarbeck/BatterDay',
-    live: 'https://adamharbeck.github.io/BatterDay',
+    live: 'https://batterday.herokuapp.com',
   },
   {
     projName: 'Mana Tap',

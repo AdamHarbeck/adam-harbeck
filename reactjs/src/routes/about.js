@@ -3,7 +3,7 @@ import MainBtn from '../components/buttons/mainBtn';
 import Header from '../components/containers/header';
 import SocialMedia from '../components/containers/socialMedia';
 import routeCss from './routes.module.css';
-import Picture from '../assets/practice.png';
+import Picture from '../assets/ProfessionalPic.jpg';
 import { Link } from 'react-router-dom';
 
 const About = () => {
